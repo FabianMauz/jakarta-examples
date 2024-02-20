@@ -27,7 +27,7 @@
                         <id>container building</id>
                         <configuration>
                             <executable>docker</executable>
-                            <commandlineArgs>run -p 8080:8080 --name tomme-9-0-0 my-tomee </commandlineArgs>
+                            <commandlineArgs>run -p 8080:8080 --name tomme-9-0-0 tomee:9-jre17-plume </commandlineArgs>
                             <successCodes>
                                 <successCode>0</successCode>
                                 <successCode>125</successCode>
