@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="./scripts/rest.js"></script>
+    <script type="text/javascript" src="./scripts/servlet.js"></script>
+    <script type="text/javascript" src="./scripts/webSocket.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="webSocketExample.css">
+    <title>Example Project</title>
+</head>
+<body>
+
+<div class="example-block">
+    <div id="rest-example">
+        <div class="header">This is an example for requesting stuff from a REST API</div>
+        <div id="rest-example-answer"></div>
+        <script>fetchFromServer_Rest()</script>
+    </div>
+</div>
+
+<div class="example-block">
+    <div>
+        <div class="header">This is an example for requesting stuff from a WebServlet</div>
+        <div id="servlet-example-answer"></div>
+        <script>fetchFromServer_Servlet()</script>
+
+    </div>
+</div>
+
+<div class="example-block">
+    <div>
+        <div class="header">This is an example for requesting stuff via WebSockets</div>
+        <div id="socket-example-answer"></div>
+        <script>fetchFromServer_Socket()</script>
+        <button onclick="askQuestion()">WebSocket Example</button>
+
+    </div>
+</div>
+
+</body>
+</html>
