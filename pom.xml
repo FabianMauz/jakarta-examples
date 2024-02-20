@@ -54,7 +54,7 @@
                         <id>war deploying</id>
                         <configuration>
                             <executable>docker</executable>
-                            <commandlineArgs>cp ${project.basedir}\target\socketTest.war tomme-9-0-0:/usr/local/tomee/webapps</commandlineArgs>
+                            <commandlineArgs>cp ${project.basedir}/target/socketTest.war tomme-9-0-0:/usr/local/tomee/webapps</commandlineArgs>
                         </configuration>
                         <phase>install</phase>
                         <goals>
